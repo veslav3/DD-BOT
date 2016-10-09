@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.AspNetCore.Authentication.OAuth</id>
+    <version>1.0.0</version>
+    <authors>Microsoft.AspNetCore.Authentication.OAuth</authors>
+    <owners>Microsoft.AspNetCore.Authentication.OAuth</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>http://www.microsoft.com/web/webpi/eula/net_library_eula_enu.htm</licenseUrl>
+    <projectUrl>http://www.asp.net/</projectUrl>
+    <iconUrl>http://go.microsoft.com/fwlink/?LinkID=288859</iconUrl>
+    <description>ASP.NET Core middleware that enables an application to support any standard OAuth 2.0 authentication workflow.</description>
+    <copyright>Copyright © Microsoft Corporation</copyright>
+    <tags>aspnetcore,authentication,security</tags>
+    <serviceable>true</serviceable>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5.1">
+        <dependency id="Microsoft.AspNetCore.Authentication" version="1.0.0" />
+        <dependency id="Newtonsoft.Json" version="9.0.1" />
+      </group>
+      <group targetFramework=".NETStandard1.3">
+        <dependency id="System.Runtime.Serialization.Primitives" version="4.1.1" />
+        <dependency id="Microsoft.AspNetCore.Authentication" version="1.0.0" />
+        <dependency id="Newtonsoft.Json" version="9.0.1" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

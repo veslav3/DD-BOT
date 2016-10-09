@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Discord.OAuth2</id>
+    <version>1.0.0</version>
+    <authors>RogueException</authors>
+    <owners>RogueException</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/RogueException/Discord.OAuth2</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ASP.Net Core middleware that enables an application to support Discord's OAuth 2.0 authentication workflow.</description>
+    <tags>discord discordapp aspnetcore authentication security</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5.1">
+        <dependency id="Microsoft.AspNetCore.Authentication.OAuth" version="[1.0.0-rc2-final, )" />
+      </group>
+      <group targetFramework=".NETStandard1.3">
+        <dependency id="Microsoft.AspNetCore.Authentication.OAuth" version="[1.0.0-rc2-final, )" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
