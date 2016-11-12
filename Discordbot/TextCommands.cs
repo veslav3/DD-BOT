@@ -16,6 +16,7 @@ namespace Discordbot
             textCommand("audio", "doet het niet :(");
             textCommand("league?", "nee");
             TTSCommand("tts", "Houd je bek kutkind!");
+            TTSCommand("doo d", "doo d doo d doo d doo d doo d doo d doo d doo d doo d doo d doo d doo d doo d doo d doo d doo d doo d doo d doo d ");
         }
 
         private void textCommand(String input, String output)
